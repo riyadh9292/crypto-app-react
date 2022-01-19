@@ -1,7 +1,16 @@
 import "./App.css";
+import { Navbar } from "./components";
 
 function App() {
-  return <h1>hola kuku</h1>;
+  return (
+    <div className="app">
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main">hola</div>
+      <div className="footer"></div>
+    </div>
+  );
 }
 
 export default App;
